@@ -1,0 +1,23 @@
+﻿Build started 14.11.2016 12:55:09.
+Project "C:\Users\st49651\documents\visual studio 2013\Projects\iujc_cv8\iujc_cv8\iujc_cv8.vcxproj" on node 2 (Build target(s)).
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+  main.c
+c:\users\st49651\documents\visual studio 2013\projects\iujc_cv8\iujc_cv8\main.c(15): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+c:\users\st49651\documents\visual studio 2013\projects\iujc_cv8\iujc_cv8\main.c(21): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+c:\users\st49651\documents\visual studio 2013\projects\iujc_cv8\iujc_cv8\main.c(47): warning C4018: '<' : signed/unsigned mismatch
+c:\users\st49651\documents\visual studio 2013\projects\iujc_cv8\iujc_cv8\main.c(51): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(283) : see declaration of 'scanf'
+c:\users\st49651\documents\visual studio 2013\projects\iujc_cv8\iujc_cv8\main.c(54): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(283) : see declaration of 'scanf'
+c:\users\st49651\documents\visual studio 2013\projects\iujc_cv8\iujc_cv8\main.c(18): warning C4716: 'alokuj' : must return a value
+Link:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\st49651\documents\visual studio 2013\Projects\iujc_cv8\Debug\iujc_cv8.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\st49651\documents\visual studio 2013\Projects\iujc_cv8\Debug\iujc_cv8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\st49651\documents\visual studio 2013\Projects\iujc_cv8\Debug\iujc_cv8.lib" /MACHINE:X86 Debug\main.obj
+  iujc_cv8.vcxproj -> C:\Users\st49651\documents\visual studio 2013\Projects\iujc_cv8\Debug\iujc_cv8.exe
+Done Building Project "C:\Users\st49651\documents\visual studio 2013\Projects\iujc_cv8\iujc_cv8\iujc_cv8.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.35
